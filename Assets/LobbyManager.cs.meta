@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bebe15be2992946b5b23f11493435b1e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerNameInputField: {instanceID: 0}
+  - UI_LoginGameObject: {fileID: 686711504876259039, guid: 9b002e9ff4d5743eeba8be475546a80e,
+      type: 3}
+  - uI_LobbyGameObject: {fileID: 686711504876259039, guid: 9b002e9ff4d5743eeba8be475546a80e,
+      type: 3}
+  - ui_ConnectionStatusObject: {fileID: 3432337372973823919, guid: a16fe4b0cd6904292927f67c711737cd,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
