@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Photon.Pun;
+using UnityEngine.SceneManagement;
 
 public class LobbyManager : MonoBehaviourPunCallbacks
 {
@@ -44,11 +45,11 @@ public class LobbyManager : MonoBehaviourPunCallbacks
 
          if (!string.IsNullOrEmpty(playerName)){
              PhotonNetwork.LocalPlayer.NickName = playerName;
+             SceneManager.LoadScene("Connecting");
              PhotonNetwork.ConnectUsingSettings();
             if (PhotonNetwork.IsConnected){
+                 SceneManager.LoadScene("Connected");
                  Debug.Log("Connected to server");
-
-
            }
 
          }
@@ -57,6 +58,10 @@ public class LobbyManager : MonoBehaviourPunCallbacks
          }
     }
     #endregion
+
+    // public void switchScene(){
+    //   SceneManager.LoadScene("");
+    // }
 
 
     #region PHOTON Callback Methods

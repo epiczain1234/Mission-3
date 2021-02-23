@@ -77,7 +77,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Connected to Server
+  m_Text: Connecting to Server...
 --- !u!1 &3432337372973823919
 GameObject:
   m_ObjectHideFlags: 0
