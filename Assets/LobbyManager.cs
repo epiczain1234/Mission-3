@@ -48,8 +48,9 @@ public class LobbyManager : MonoBehaviourPunCallbacks
              SceneManager.LoadScene("Connecting");
              PhotonNetwork.ConnectUsingSettings();
             if (PhotonNetwork.IsConnected){
-                 SceneManager.LoadScene("Actual");
+                //  SceneManager.LoadScene("Actual");
                  Debug.Log("Connected to server");
+                 SceneManager.LoadScene("RoomConnectScene");
            }
 
          }
