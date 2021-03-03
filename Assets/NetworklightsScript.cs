@@ -6,22 +6,17 @@ using Photon.Pun;
 public class NetworklightsScript : MonoBehaviour, IPunObservable
 {
     // Start is called before the first frame update
-    Rigidbody rb;
-    PhotonView photonView;
-
-    private void awake(){
-      rb = GetComponent<Rigidbody>();
-      photonView = GetComponent <PhotonView>();
-    }
+    private PhotonView photonView;
     void Start()
     {
-
+      photonView = GameObject.Find("Sphere").GetComponent<PhotonView>();
+      photonView.RPC("RPC_ChangeColor", RpcTarget.All, null);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
+    [PunRPC]
+    void RPC_ChangeColor(){
+        Debug.Log("Color change code executed");
+        GetComponent<Renderer>().material.color = Color.red;
     }
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info){
 
@@ -31,10 +26,6 @@ public class NetworklightsScript : MonoBehaviour, IPunObservable
       if (stream.IsReading){
 
       }
-
-    }
-    [PunRPC]
-    public void ChangeColorToGreen(){
 
     }
 }

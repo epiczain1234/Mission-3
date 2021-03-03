@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/RoomConnectScene.unity
     guid: 375be5698bb13480c909ab44d8cf59e3
   - enabled: 1
+    path: Assets/MultiplayerRoom.unity
+    guid: 5caffe3b7b01042dcaa05a1b6d21bcc9
+  - enabled: 0
     path: Assets/Actual.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

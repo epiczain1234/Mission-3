@@ -29,7 +29,7 @@ public class CreateRoom : MonoBehaviourPunCallbacks
   }
 
   public override void OnJoinedRoom(){
-    SceneManager.LoadScene("Actual");
+    SceneManager.LoadScene("MultiplayerRoom");
     Debug.Log(PhotonNetwork.NickName + " joined " + PhotonNetwork.CurrentRoom.Name + " Player Count is now " + PhotonNetwork.CurrentRoom.PlayerCount);
   }
 
