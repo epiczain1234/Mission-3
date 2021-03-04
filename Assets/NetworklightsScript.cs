@@ -11,8 +11,14 @@ public class NetworklightsScript : MonoBehaviour, IPunObservable
       photonView = GameObject.Find("Sphere").GetComponent<PhotonView>();
     }
     // use this function on a ui button (will eventuall move this to a lever)
-    public void ChangeColorOnClick(){
-      photonView.RPC("RPC_ChangeColor", RpcTarget.All, null);
+    // public void ChangeColorOnClick(){
+    //   photonView.RPC("RPC_ChangeColor", RpcTarget.All, null);
+    // }
+    void OnMouseOver(){
+      if (Input.GetMouseButtonUp(0)){
+        Debug.Log("Sphere Click detected");
+        photonView.RPC("RPC_ChangeColor", RpcTarget.All, null);
+      }
     }
 
     [PunRPC]
