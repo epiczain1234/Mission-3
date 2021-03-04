@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - FirstPersonAIO
     - LobbyManager
     - NetworklightsScript
+    - NetworklightsScript1
     PhotonUnityNetworking.Demos.dll:
     - Photon.Pun.Demo.Asteroids.Asteroid
     - Photon.Pun.Demo.Asteroids.Bullet
@@ -288,6 +289,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14202}
     - Class: 114
       Script: {instanceID: 14294}
+    - Class: 114
+      Script: {instanceID: 18114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1702,6 +1705,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NetworklightsScript1
   platform: 2
   scenePathNames:
   - Assets/Lobby.unity
@@ -1709,4 +1718,4 @@ ScriptsOnlyBuild:
   - Assets/Connected.unity
   - Assets/RoomConnectScene.unity
   - Assets/MultiplayerRoom.unity
-  playerPath: /Users/zainmukati/Desktop/noUI on multiplayer.app
+  playerPath: /Users/zainmukati/Desktop/modularsphere.app
