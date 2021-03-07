@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Actual.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/WinScene.unity
+    guid: a44898810d9294068bc1a5d169084b5c
+  - enabled: 1
+    path: Assets/ReadyUp.unity
+    guid: 8106ca26d45fb4d8abb410f0e8cd11b8
   m_configObjects: {}
