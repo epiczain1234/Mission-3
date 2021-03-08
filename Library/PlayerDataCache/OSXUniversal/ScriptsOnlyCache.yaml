@@ -8,7 +8,7 @@ ScriptsOnlyBuild:
     - LobbyManager
     - NetworklightsScript
     - NetworklightsScript1
-    - ReadyButton
+    - WaitingOnPlayers
     PhotonUnityNetworking.Demos.dll:
     - Photon.Pun.Demo.Asteroids.Asteroid
     - Photon.Pun.Demo.Asteroids.Bullet
@@ -73,7 +73,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13824}
     - Class: 114
-      Script: {instanceID: 14294}
+      Script: {instanceID: 14296}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -116,7 +116,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13824}
     - Class: 114
-      Script: {instanceID: 14294}
+      Script: {instanceID: 14296}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -217,9 +217,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14202}
     - Class: 114
-      Script: {instanceID: 14294}
+      Script: {instanceID: 14296}
     - Class: 114
-      Script: {instanceID: 14330}
+      Script: {instanceID: 14334}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -298,9 +298,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14202}
     - Class: 114
-      Script: {instanceID: 14294}
+      Script: {instanceID: 14296}
     - Class: 114
-      Script: {instanceID: 15088}
+      Script: {instanceID: 14304}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -343,19 +343,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11800}
     - Class: 114
-      Script: {instanceID: 11802}
-    - Class: 114
       Script: {instanceID: 11834}
-    - Class: 114
-      Script: {instanceID: 12096}
     - Class: 114
       Script: {instanceID: 12632}
     - Class: 114
       Script: {instanceID: 13824}
     - Class: 114
-      Script: {instanceID: 14294}
+      Script: {instanceID: 14296}
     - Class: 114
-      Script: {instanceID: 17792}
+      Script: {instanceID: 15462}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -363,8 +359,6 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -406,7 +400,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13824}
     - Class: 114
-      Script: {instanceID: 14294}
+      Script: {instanceID: 14296}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -455,7 +449,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13824}
     - Class: 114
-      Script: {instanceID: 14294}
+      Script: {instanceID: 14296}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1753,10 +1747,22 @@ ScriptsOnlyBuild:
     className: CurrentRoomIsOfflineProperty
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ReadyButton
+  - hash:
+      serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: c9087d99e22039528856fbd9eda13258
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CountDownTimer
   - hash:
       serializedVersion: 2
       Hash: 0ffaf073d4b1fa4e8036cf7ad52ddba7
@@ -1834,13 +1840,7 @@ ScriptsOnlyBuild:
       Hash: c9087d99e22039528856fbd9eda13258
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: CountDownTimer
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ReadyButton
+    className: WaitingOnPlayers
   platform: 2
   scenePathNames:
   - Assets/Lobby.unity
@@ -1850,4 +1850,4 @@ ScriptsOnlyBuild:
   - Assets/MultiplayerRoom.unity
   - Assets/WinScene.unity
   - Assets/ReadyUp.unity
-  playerPath: /Users/zainmukati/Desktop/trying.app
+  playerPath: /Users/zainmukati/Desktop/wiaitn.app
