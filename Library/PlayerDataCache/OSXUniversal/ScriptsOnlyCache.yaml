@@ -12,6 +12,7 @@ ScriptsOnlyBuild:
     - Networklights5
     - NetworklightsScript
     - NetworklightsScript1
+    - TurnSpheresRed
     - WaitingOnPlayers
     PhotonUnityNetworking.Demos.dll:
     - Photon.Pun.Demo.Asteroids.Asteroid
@@ -313,6 +314,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 16448}
     - Class: 114
       Script: {instanceID: 16696}
+    - Class: 114
+      Script: {instanceID: 23386}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1877,6 +1880,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Networklights5
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TurnSpheresRed
   platform: 2
   scenePathNames:
   - Assets/Lobby.unity
@@ -1886,4 +1895,4 @@ ScriptsOnlyBuild:
   - Assets/MultiplayerRoom.unity
   - Assets/WinScene.unity
   - Assets/ReadyUp.unity
-  playerPath: /Users/zainmukati/Desktop/sphere scripts.app
+  playerPath: /Users/zainmukati/Desktop/one more.app
