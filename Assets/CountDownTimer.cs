@@ -8,7 +8,7 @@ public class CountDownTimer : MonoBehaviour
 {
     // Start is called before the first frame
     float currentTime;
-    float startingTime = 30f;
+    float startingTime = 60f;
     [SerializeField] Text countdownText;
     void Start()
     {

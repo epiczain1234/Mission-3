@@ -6,6 +6,10 @@ ScriptsOnlyBuild:
     - CreateRoom
     - FirstPersonAIO
     - LobbyManager
+    - Networklights2
+    - Networklights3
+    - Networklights4
+    - Networklights5
     - NetworklightsScript
     - NetworklightsScript1
     - WaitingOnPlayers
@@ -71,9 +75,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12632}
     - Class: 114
-      Script: {instanceID: 13824}
+      Script: {instanceID: 13826}
     - Class: 114
-      Script: {instanceID: 14296}
+      Script: {instanceID: 14298}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -114,9 +118,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12632}
     - Class: 114
-      Script: {instanceID: 13824}
+      Script: {instanceID: 13826}
     - Class: 114
-      Script: {instanceID: 14296}
+      Script: {instanceID: 14298}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -191,35 +195,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12714}
     - Class: 114
-      Script: {instanceID: 12954}
+      Script: {instanceID: 12956}
     - Class: 114
-      Script: {instanceID: 13028}
+      Script: {instanceID: 13030}
     - Class: 114
-      Script: {instanceID: 13246}
+      Script: {instanceID: 13248}
     - Class: 114
-      Script: {instanceID: 13326}
+      Script: {instanceID: 13328}
     - Class: 114
-      Script: {instanceID: 13416}
+      Script: {instanceID: 13418}
     - Class: 114
-      Script: {instanceID: 13428}
+      Script: {instanceID: 13430}
     - Class: 114
-      Script: {instanceID: 13440}
+      Script: {instanceID: 13442}
     - Class: 114
-      Script: {instanceID: 13656}
+      Script: {instanceID: 13658}
     - Class: 114
-      Script: {instanceID: 13678}
+      Script: {instanceID: 13680}
     - Class: 114
-      Script: {instanceID: 13688}
+      Script: {instanceID: 13690}
     - Class: 114
-      Script: {instanceID: 13824}
+      Script: {instanceID: 13826}
     - Class: 114
-      Script: {instanceID: 14190}
+      Script: {instanceID: 14192}
     - Class: 114
-      Script: {instanceID: 14202}
+      Script: {instanceID: 14204}
     - Class: 114
-      Script: {instanceID: 14296}
+      Script: {instanceID: 14298}
     - Class: 114
-      Script: {instanceID: 14334}
+      Script: {instanceID: 14336}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -292,15 +296,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12632}
     - Class: 114
-      Script: {instanceID: 13756}
+      Script: {instanceID: 13758}
     - Class: 114
-      Script: {instanceID: 13824}
+      Script: {instanceID: 13826}
     - Class: 114
-      Script: {instanceID: 14202}
+      Script: {instanceID: 14204}
     - Class: 114
-      Script: {instanceID: 14296}
+      Script: {instanceID: 14298}
     - Class: 114
-      Script: {instanceID: 14304}
+      Script: {instanceID: 14306}
+    - Class: 114
+      Script: {instanceID: 16192}
+    - Class: 114
+      Script: {instanceID: 16320}
+    - Class: 114
+      Script: {instanceID: 16448}
+    - Class: 114
+      Script: {instanceID: 16696}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -347,11 +359,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12632}
     - Class: 114
-      Script: {instanceID: 13824}
+      Script: {instanceID: 12780}
     - Class: 114
-      Script: {instanceID: 14296}
+      Script: {instanceID: 13826}
     - Class: 114
-      Script: {instanceID: 15462}
+      Script: {instanceID: 14298}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -396,11 +408,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12632}
     - Class: 114
-      Script: {instanceID: 13376}
+      Script: {instanceID: 13378}
     - Class: 114
-      Script: {instanceID: 13824}
+      Script: {instanceID: 13826}
     - Class: 114
-      Script: {instanceID: 14296}
+      Script: {instanceID: 14298}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -447,9 +459,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12632}
     - Class: 114
-      Script: {instanceID: 13824}
+      Script: {instanceID: 13826}
     - Class: 114
-      Script: {instanceID: 14296}
+      Script: {instanceID: 14298}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1013,6 +1025,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
     className: CurrentRoomPlayerTtlProperty
+  - hash:
+      serializedVersion: 2
+      Hash: c9087d99e22039528856fbd9eda13258
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WaitingOnPlayers
   - hash:
       serializedVersion: 2
       Hash: f941c3a384168571b7d90f58ec4986bc
@@ -1837,10 +1855,28 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: c9087d99e22039528856fbd9eda13258
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: WaitingOnPlayers
+    className: Networklights2
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Networklights3
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Networklights4
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Networklights5
   platform: 2
   scenePathNames:
   - Assets/Lobby.unity
@@ -1850,4 +1886,4 @@ ScriptsOnlyBuild:
   - Assets/MultiplayerRoom.unity
   - Assets/WinScene.unity
   - Assets/ReadyUp.unity
-  playerPath: /Users/zainmukati/Desktop/wiaitn.app
+  playerPath: /Users/zainmukati/Desktop/sphere scripts.app
