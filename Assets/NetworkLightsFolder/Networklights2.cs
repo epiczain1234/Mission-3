@@ -33,7 +33,7 @@ public class Networklights2 : MonoBehaviour, IPunObservable
         }
 
     }
-    // essetial interface component
+    // essential interface component
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info){
 
       if (stream.IsWriting){
