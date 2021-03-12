@@ -13,6 +13,7 @@ ScriptsOnlyBuild:
     - NetworklightsScript
     - NetworklightsScript1
     - RedSpheresP1
+    - RedSpheresP2
     - TurnSpheresRed
     - WaitingOnPlayers
     PhotonUnityNetworking.Demos.dll:
@@ -77,9 +78,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12636}
     - Class: 114
-      Script: {instanceID: 13834}
+      Script: {instanceID: 13836}
     - Class: 114
-      Script: {instanceID: 14310}
+      Script: {instanceID: 14312}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -120,9 +121,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12636}
     - Class: 114
-      Script: {instanceID: 13834}
+      Script: {instanceID: 13836}
     - Class: 114
-      Script: {instanceID: 14310}
+      Script: {instanceID: 14312}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -199,33 +200,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12962}
     - Class: 114
-      Script: {instanceID: 13036}
+      Script: {instanceID: 13038}
     - Class: 114
-      Script: {instanceID: 13256}
+      Script: {instanceID: 13258}
     - Class: 114
-      Script: {instanceID: 13336}
+      Script: {instanceID: 13338}
     - Class: 114
-      Script: {instanceID: 13426}
+      Script: {instanceID: 13428}
     - Class: 114
-      Script: {instanceID: 13438}
+      Script: {instanceID: 13440}
     - Class: 114
-      Script: {instanceID: 13450}
+      Script: {instanceID: 13452}
     - Class: 114
-      Script: {instanceID: 13666}
+      Script: {instanceID: 13668}
     - Class: 114
-      Script: {instanceID: 13688}
+      Script: {instanceID: 13690}
     - Class: 114
-      Script: {instanceID: 13698}
+      Script: {instanceID: 13700}
     - Class: 114
-      Script: {instanceID: 13834}
+      Script: {instanceID: 13836}
     - Class: 114
-      Script: {instanceID: 14204}
+      Script: {instanceID: 14206}
     - Class: 114
-      Script: {instanceID: 14216}
+      Script: {instanceID: 14218}
     - Class: 114
-      Script: {instanceID: 14310}
+      Script: {instanceID: 14312}
     - Class: 114
-      Script: {instanceID: 14348}
+      Script: {instanceID: 14350}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -292,8 +293,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11834}
     - Class: 114
-      Script: {instanceID: 11888}
-    - Class: 114
       Script: {instanceID: 12134}
     - Class: 114
       Script: {instanceID: 12536}
@@ -304,19 +303,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12684}
     - Class: 114
-      Script: {instanceID: 13054}
+      Script: {instanceID: 13768}
     - Class: 114
-      Script: {instanceID: 13766}
+      Script: {instanceID: 13836}
     - Class: 114
-      Script: {instanceID: 13834}
+      Script: {instanceID: 14218}
     - Class: 114
-      Script: {instanceID: 14014}
+      Script: {instanceID: 14312}
     - Class: 114
-      Script: {instanceID: 14216}
-    - Class: 114
-      Script: {instanceID: 14310}
-    - Class: 114
-      Script: {instanceID: 14318}
+      Script: {instanceID: 14320}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -381,17 +376,94 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12636}
     - Class: 114
-      Script: {instanceID: 13766}
+      Script: {instanceID: 13768}
     - Class: 114
-      Script: {instanceID: 13834}
+      Script: {instanceID: 13836}
     - Class: 114
-      Script: {instanceID: 14068}
+      Script: {instanceID: 14070}
     - Class: 114
-      Script: {instanceID: 14216}
+      Script: {instanceID: 14218}
     - Class: 114
-      Script: {instanceID: 14310}
+      Script: {instanceID: 14312}
     - Class: 114
-      Script: {instanceID: 14318}
+      Script: {instanceID: 14320}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Player2Scene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11800}
+    - Class: 114
+      Script: {instanceID: 11834}
+    - Class: 114
+      Script: {instanceID: 11888}
+    - Class: 114
+      Script: {instanceID: 12628}
+    - Class: 114
+      Script: {instanceID: 12636}
+    - Class: 114
+      Script: {instanceID: 12988}
+    - Class: 114
+      Script: {instanceID: 13056}
+    - Class: 114
+      Script: {instanceID: 13768}
+    - Class: 114
+      Script: {instanceID: 13836}
+    - Class: 114
+      Script: {instanceID: 14016}
+    - Class: 114
+      Script: {instanceID: 14218}
+    - Class: 114
+      Script: {instanceID: 14312}
+    - Class: 114
+      Script: {instanceID: 14320}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -440,9 +512,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12786}
     - Class: 114
-      Script: {instanceID: 13834}
+      Script: {instanceID: 13836}
     - Class: 114
-      Script: {instanceID: 14310}
+      Script: {instanceID: 14312}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -487,11 +559,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12636}
     - Class: 114
-      Script: {instanceID: 13386}
+      Script: {instanceID: 13388}
     - Class: 114
-      Script: {instanceID: 13834}
+      Script: {instanceID: 13836}
     - Class: 114
-      Script: {instanceID: 14310}
+      Script: {instanceID: 14312}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -538,9 +610,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12636}
     - Class: 114
-      Script: {instanceID: 13834}
+      Script: {instanceID: 13836}
     - Class: 114
-      Script: {instanceID: 14310}
+      Script: {instanceID: 14312}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1206,6 +1278,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ChatAppIdCheckerUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RedSpheresP2
   - hash:
       serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
@@ -1978,4 +2056,5 @@ ScriptsOnlyBuild:
   - Assets/WinScene.unity
   - Assets/ReadyUp.unity
   - Assets/Player1Scene.unity
-  playerPath: /Users/zainmukati/Desktop/k.app
+  - Assets/Player2Scene.unity
+  playerPath: /Users/zainmukati/Desktop/reattached script.app
