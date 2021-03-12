@@ -14,6 +14,7 @@ public class WaitingOnPlayers : MonoBehaviour
     void Start()
     {
       currentTime = startTime;
+      Debug.Log("player number is " + PhotonNetwork.LocalPlayer.ActorNumber);
     }
 
     // Update is called once per frame
@@ -23,7 +24,13 @@ public class WaitingOnPlayers : MonoBehaviour
         currentTime -= 1 * Time.deltaTime;
         Debug.Log(currentTime + " seconds left till game start");
         if (0 >= currentTime){
-          SceneManager.LoadScene("MultiplayerRoom");
+          if (PhotonNetwork.LocalPlayer.ActorNumber == 1){
+            SceneManager.LoadScene("Player1Scene");
+          }
+          else{
+              SceneManager.LoadScene("MultiplayerRoom");
+          }
+          
         }
 
 
