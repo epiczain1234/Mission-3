@@ -28,10 +28,6 @@ public class Networklights2 : MonoBehaviour, IPunObservable
             GetComponent<Renderer>().material.color = Color.green;
         }
 
-        else{
-            GetComponent<Renderer>().material.color = Color.red;
-        }
-
     }
     // essential interface component
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info){

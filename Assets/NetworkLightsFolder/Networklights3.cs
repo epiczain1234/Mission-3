@@ -28,9 +28,7 @@ public class Networklights3 : MonoBehaviour, IPunObservable
             GetComponent<Renderer>().material.color = Color.green;
         }
 
-        else{
-            GetComponent<Renderer>().material.color = Color.red;
-        }
+     
 
     }
     // essetial interface component
