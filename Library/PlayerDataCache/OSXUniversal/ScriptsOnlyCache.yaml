@@ -13,7 +13,6 @@ ScriptsOnlyBuild:
     - NetworklightsScript
     - NetworklightsScript1
     - RedSpheresP1
-    - RedSpheresP2
     - TurnSpheresRed
     - WaitingOnPlayers
     PhotonUnityNetworking.Demos.dll:
@@ -449,8 +448,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12636}
     - Class: 114
-      Script: {instanceID: 12988}
-    - Class: 114
       Script: {instanceID: 13056}
     - Class: 114
       Script: {instanceID: 13768}
@@ -458,6 +455,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13836}
     - Class: 114
       Script: {instanceID: 14016}
+    - Class: 114
+      Script: {instanceID: 14070}
     - Class: 114
       Script: {instanceID: 14218}
     - Class: 114
@@ -2057,4 +2056,4 @@ ScriptsOnlyBuild:
   - Assets/ReadyUp.unity
   - Assets/Player1Scene.unity
   - Assets/Player2Scene.unity
-  playerPath: /Users/zainmukati/Desktop/no more red clicks.app
+  playerPath: /Users/zainmukati/Desktop/last check.app

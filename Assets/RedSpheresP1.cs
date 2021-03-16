@@ -10,12 +10,17 @@ public class RedSpheresP1 : MonoBehaviour, IPunObservable
     string[] lights;
     void Start()
     {
-      lights = new string[3]{"Sphere","Sphere1","Sphere2"};
+      if (PhotonNetwork.LocalPlayer.ActorNumber == 1){
+        lights = new string[3]{"Sphere","Sphere1","Sphere2"};
+      }
+      else if (PhotonNetwork.LocalPlayer.ActorNumber == 2){
+        lights = new string[3]{"Sphere3","Sphere4","Sphere5"};
+      }
       for (int i = 0; i < lights.Length; i++){
         photonView = GameObject.Find(lights[i]).GetComponent<PhotonView>();
         photonView.GetComponent<Renderer>().material.color = Color.green;
       }
-      StartCoroutine("callLimiter");
+      StartCoroutine("callLimiter", 6f);
     }
 
     // Update is called once per frame
@@ -37,13 +42,9 @@ public class RedSpheresP1 : MonoBehaviour, IPunObservable
     [PunRPC]
     public void turnSphereRed(){
         Debug.Log("attempting to grab a sphere and chance it color");
-          int grab = Random.Range(0, lights.Length);
+          int grab = Random.Range(0, lights.Length - 1);
           photonView = GameObject.Find(lights[grab]).GetComponent<PhotonView>();
-          while (photonView.GetComponent<Renderer>().material.color == Color.red){
-              grab = Random.Range(0, lights.Length);
-              Debug.Log("changing the color of " + lights[grab] + " now");
-              photonView = GameObject.Find(lights[grab]).GetComponent<PhotonView>();
-          }
+          Debug.Log("changing the color of " + lights[grab] + " now");
           photonView.GetComponent<Renderer>().material.color = Color.red;
         
      } 
