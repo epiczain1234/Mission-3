@@ -7,8 +7,10 @@ public class NetworklightsScript1 : MonoBehaviour, IPunObservable
 {
     // Start is called before the first frame update
     private PhotonView photonView;
+    private PhotonView correlatedView;
     void Start(){
       photonView = GameObject.Find("Sphere1").GetComponent<PhotonView>();
+      correlatedView = GameObject.Find("Sphere4").GetComponent<PhotonView>();
     }
     // use this function on a ui button (will eventuall move this to a lever)
     // public void ChangeColorOnClick(){
@@ -27,6 +29,8 @@ public class NetworklightsScript1 : MonoBehaviour, IPunObservable
         if (GetComponent<Renderer>().material.color == Color.red){
             GetComponent<Renderer>().material.color = Color.green;
         }
+        Debug.Log("I am now affecting sphere 4");
+        correlatedView.GetComponent<Renderer>().material.color = Color.red;
 
     }
     // essetial interface component

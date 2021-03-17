@@ -28,7 +28,7 @@ public class WaitingOnPlayers : MonoBehaviour
             SceneManager.LoadScene("Player1Scene");
           }
           else{
-              SceneManager.LoadScene("Player2Scene");
+              SceneManager.LoadScene("Player1Scene");
           }
           
         }
