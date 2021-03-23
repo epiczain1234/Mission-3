@@ -256,6 +256,29 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 225
       Script: {instanceID: 0}
+    Assets/Lostthegame.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
     Assets/MultiplayerRoom.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -2062,4 +2085,5 @@ ScriptsOnlyBuild:
   - Assets/ReadyUp.unity
   - Assets/Player1Scene.unity
   - Assets/Player2Scene.unity
-  playerPath: /Users/zainmukati/Desktop/1 scene.app
+  - Assets/Lostthegame.unity
+  playerPath: /Users/zainmukati/Desktop/initialize hashtable.app

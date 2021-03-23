@@ -4,6 +4,7 @@ using UnityEngine;
 using Photon.Realtime;
 using Photon.Pun;
 using UnityEngine.SceneManagement;
+using Hashtable = ExitGames.Client.Photon.Hashtable;
 
 public class CreateRoom : MonoBehaviourPunCallbacks
 {
@@ -24,6 +25,9 @@ public class CreateRoom : MonoBehaviourPunCallbacks
     Debug.Log("Failed to join room, creating a new one...");
     RoomOptions options = new RoomOptions();
     options.MaxPlayers = 2;
+    Hashtable RoomCustomProps = new Hashtable();
+    RoomCustomProps.Add("Strikes", 0);
+    options.CustomRoomProperties = RoomCustomProps;
     string randomRoomName = "Mission3";
     PhotonNetwork.CreateRoom(randomRoomName, options, null);
   }

@@ -29,6 +29,10 @@ public class NetworklightsScript1 : MonoBehaviour, IPunObservable
         if (GetComponent<Renderer>().material.color == Color.red){
             GetComponent<Renderer>().material.color = Color.green;
         }
+        // if material is green and clicked (Strike Condition)
+        else{
+          
+        }
         Debug.Log("I am now affecting sphere 4");
         correlatedView.GetComponent<Renderer>().material.color = Color.red;
 

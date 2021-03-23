@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
-
+using Hashtable = ExitGames.Client.Photon.Hashtable;
 public class NetworklightsScript : MonoBehaviour, IPunObservable
 {
     // Start is called before the first frame update
@@ -26,9 +26,15 @@ public class NetworklightsScript : MonoBehaviour, IPunObservable
 
     [PunRPC]
     void RPC_ChangeColor(){
-        Debug.Log("Color change code executed");
+        Debug.Log("Color change code executed for sphere to end game");
         if (GetComponent<Renderer>().material.color == Color.red){
             GetComponent<Renderer>().material.color = Color.green;
+        }
+        else{
+          int oldStrikes = (int)PhotonNetwork.CurrentRoom.CustomProperties["Strikes"] + 1;
+          Debug.Log("More Strikes");
+          PhotonNetwork.CurrentRoom.SetCustomProperties(new Hashtable{{"Strikes", oldStrikes}});
+          Debug.Log("We now have a total of " + (int)PhotonNetwork.CurrentRoom.CustomProperties["Strikes"] + " strikes");
         }
         Debug.Log("I am now affecting sphere 3");
         correlatedView.GetComponent<Renderer>().material.color = Color.red;
