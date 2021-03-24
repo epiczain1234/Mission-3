@@ -2152,4 +2152,4 @@ ScriptsOnlyBuild:
   - Assets/Player2Scene.unity
   - Assets/Lostthegame.unity
   - Assets/Final.unity
-  playerPath: /Users/zainmukati/Desktop/last try.app
+  playerPath: /Users/zainmukati/Desktop/colliders + scripts.app
