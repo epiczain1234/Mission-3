@@ -32,6 +32,7 @@ public class RedSpheresP1 : MonoBehaviour, IPunObservable
     void Update()
     {
       //  TODO: Re-Enable this hastable checking script 
+        Debug.Log("wE HAVE " + (int)PhotonNetwork.CurrentRoom.CustomProperties["Strikes"] + " strikes in total");
         if ((int)PhotonNetwork.CurrentRoom.CustomProperties["Strikes"] >= 3){
           SceneManager.LoadScene("Lostthegame");
         }
@@ -53,7 +54,7 @@ public class RedSpheresP1 : MonoBehaviour, IPunObservable
         Debug.Log("attempting to grab a sphere and chance it color");
           int grab = Random.Range(0, lights.Length - 1);
           photonView = GameObject.Find(lights[grab]).GetComponent<PhotonView>();
-          Debug.Log("Null Reference at Turning Spheres red for actor " + PhotonNetwork.LocalPlayer.ActorNumber + " The Specific Sphere is " + lights[grab]);
+        //  Debug.Log("Null Reference at Turning Spheres red for actor " + PhotonNetwork.LocalPlayer.ActorNumber + " The Specific Sphere is " + lights[grab]);
           Debug.Log("changing the color of " + lights[grab] + " now");
           photonView.GetComponent<Renderer>().material.color = Color.red;
         

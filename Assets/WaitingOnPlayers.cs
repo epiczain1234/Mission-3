@@ -25,10 +25,10 @@ public class WaitingOnPlayers : MonoBehaviour
         Debug.Log(currentTime + " seconds left till game start");
         if (0 >= currentTime){
           if (PhotonNetwork.LocalPlayer.ActorNumber == 1){
-            SceneManager.LoadScene("Player1Scene");
+            SceneManager.LoadScene("Final");
           }
           else{
-              SceneManager.LoadScene("Player1Scene");
+              SceneManager.LoadScene("Final");
           }
           
         }
