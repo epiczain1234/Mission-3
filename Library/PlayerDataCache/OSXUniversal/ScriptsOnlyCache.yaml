@@ -2152,4 +2152,4 @@ ScriptsOnlyBuild:
   - Assets/Player2Scene.unity
   - Assets/Lostthegame.unity
   - Assets/Final.unity
-  playerPath: /Users/zainmukati/Desktop/colliders + scripts.app
+  playerPath: /Users/zainmukati/Desktop/Checking light.app

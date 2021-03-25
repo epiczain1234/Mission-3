@@ -10,7 +10,7 @@ public class NetworklightsScript : MonoBehaviour, IPunObservable
     private PhotonView correlatedView;
     void Start(){
       photonView = GameObject.Find("Sphere").GetComponent<PhotonView>();
-      correlatedView = GameObject.Find("Sphere3").GetComponent<PhotonView>();
+      correlatedView = GameObject.Find("Spherec").GetComponent<PhotonView>();
     }
     // use this function on a ui button (will eventuall move this to a lever)
     // public void ChangeColorOnClick(){
@@ -30,7 +30,7 @@ public class NetworklightsScript : MonoBehaviour, IPunObservable
         if (GetComponent<Renderer>().material.color == Color.red){
             GetComponent<Renderer>().material.color = Color.green;
         }
-        else{
+        else {
           int oldStrikes = (int)PhotonNetwork.CurrentRoom.CustomProperties["Strikes"] + 1;
           Debug.Log("More Strikes");
           PhotonNetwork.CurrentRoom.SetCustomProperties(new Hashtable{{"Strikes", oldStrikes}});
