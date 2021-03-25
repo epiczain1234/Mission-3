@@ -13,6 +13,7 @@ ScriptsOnlyBuild:
     - NetworklightsScript
     - NetworklightsScript1
     - RedSpheresP1
+    - SwitchLights
     - TurnSpheresRed
     - WaitingOnPlayers
     PhotonUnityNetworking.Demos.dll:
@@ -194,6 +195,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14218}
     - Class: 114
       Script: {instanceID: 14320}
+    - Class: 114
+      Script: {instanceID: 22358}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -2139,6 +2142,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8a80f2e9ea915a41a798254fa986f61d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SwitchLights
   platform: 2
   scenePathNames:
   - Assets/Lobby.unity
@@ -2152,4 +2161,4 @@ ScriptsOnlyBuild:
   - Assets/Player2Scene.unity
   - Assets/Lostthegame.unity
   - Assets/Final.unity
-  playerPath: /Users/zainmukati/Desktop/Checking light.app
+  playerPath: /Users/zainmukati/Desktop/fixedlever.app
