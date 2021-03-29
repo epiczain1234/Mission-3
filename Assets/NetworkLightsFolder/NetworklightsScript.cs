@@ -32,12 +32,10 @@ public class NetworklightsScript : MonoBehaviour, IPunObservable
         }
         else {
           int oldStrikes = (int)PhotonNetwork.CurrentRoom.CustomProperties["Strikes"] + 1;
-          Debug.Log("More Strikes");
           PhotonNetwork.CurrentRoom.SetCustomProperties(new Hashtable{{"Strikes", oldStrikes}});
           Debug.Log("We now have a total of " + (int)PhotonNetwork.CurrentRoom.CustomProperties["Strikes"] + " strikes");
         }
-        Debug.Log("I am now affecting sphere 3");
-        correlatedView.GetComponent<Renderer>().material.color = Color.red;
+        correlatedView.RPC("turnSphereRed", RpcTarget.All, null);
 
    
     }

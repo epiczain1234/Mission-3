@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - CountDownTimer
     - CreateRoom
     - FirstPersonAIO
+    - KnobScript
     - LobbyManager
     - Networklights2
     - Networklights3
@@ -13,7 +14,7 @@ ScriptsOnlyBuild:
     - NetworklightsScript
     - NetworklightsScript1
     - RedSpheresP1
-    - SwitchLights
+    - SliderLight
     - TurnSpheresRed
     - WaitingOnPlayers
     PhotonUnityNetworking.Demos.dll:
@@ -182,8 +183,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12628}
     - Class: 114
-      Script: {instanceID: 12890}
-    - Class: 114
       Script: {instanceID: 13058}
     - Class: 114
       Script: {instanceID: 13770}
@@ -197,6 +196,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14220}
     - Class: 114
       Script: {instanceID: 14322}
+    - Class: 114
+      Script: {instanceID: 24574}
+    - Class: 114
+      Script: {instanceID: 24706}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -2148,6 +2151,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d76c5719be720989e2a987b921a69aea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SliderLight
+  - hash:
+      serializedVersion: 2
+      Hash: 9d1fdfa9e927724436f1913835b9d435
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: KnobScript
   platform: 2
   scenePathNames:
   - Assets/Lobby.unity
@@ -2161,4 +2176,4 @@ ScriptsOnlyBuild:
   - Assets/Player2Scene.unity
   - Assets/Lostthegame.unity
   - Assets/Final.unity
-  playerPath: /Users/zainmukati/Desktop/rpccahnged.app
+  playerPath: /Users/zainmukati/Desktop/twoguncrowley.app

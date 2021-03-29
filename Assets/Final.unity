@@ -450,11 +450,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere3c
       objectReference: {fileID: 0}
+    - target: {fileID: -6448100878291415093, guid: ded290b8b7d4cdb48807ac22a690b678,
+        type: 3}
+      propertyPath: m_Name
+      value: Knob2
+      objectReference: {fileID: 0}
     - target: {fileID: -5451308186187267888, guid: ded290b8b7d4cdb48807ac22a690b678,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 2d93a475b885247e6b831c20c2ab2f8f, type: 2}
+    - target: {fileID: -4839930691875232195, guid: ded290b8b7d4cdb48807ac22a690b678,
+        type: 3}
+      propertyPath: m_Name
+      value: Knob1
+      objectReference: {fileID: 0}
     - target: {fileID: -4127856746184583566, guid: ded290b8b7d4cdb48807ac22a690b678,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -478,7 +488,7 @@ PrefabInstance:
     - target: {fileID: -3028382253917799273, guid: ded290b8b7d4cdb48807ac22a690b678,
         type: 3}
       propertyPath: m_Name
-      value: Sphere3c
+      value: Sphere2c
       objectReference: {fileID: 0}
     - target: {fileID: -2966440303233566392, guid: ded290b8b7d4cdb48807ac22a690b678,
         type: 3}
@@ -977,14 +987,13 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 828400517}
+  m_GameObject: {fileID: 828400515}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51ca14a6cbd654dcfabdfe529145a12f, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d8c1a3a9709c4ee083ab0ee1c57535d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thisObject: Knob
-  affectedObject: Spherec
+  objectName: Spherec
 --- !u!114 &828400520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1004,10 +1013,412 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   ObservedComponents:
-  - {fileID: 828400519}
+  - {fileID: 0}
   viewIdField: 8
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &828400521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828400517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42e093abe6ac440908eeb5e8ccf94a45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  affectedObject: Spherec
+--- !u!1 &828400522 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6448100878291415093, guid: ded290b8b7d4cdb48807ac22a690b678,
+    type: 3}
+  m_PrefabInstance: {fileID: 828400490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &828400523 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4839930691875232195, guid: ded290b8b7d4cdb48807ac22a690b678,
+    type: 3}
+  m_PrefabInstance: {fileID: 828400490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &828400524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828400522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42e093abe6ac440908eeb5e8ccf94a45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  affectedObject: Sphere2c
+--- !u!64 &828400525
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828400522}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7812347718994099584, guid: ded290b8b7d4cdb48807ac22a690b678, type: 3}
+--- !u!64 &828400526
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828400523}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1350320892698158404, guid: ded290b8b7d4cdb48807ac22a690b678, type: 3}
+--- !u!114 &828400527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828400523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42e093abe6ac440908eeb5e8ccf94a45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  affectedObject: Sphere1c
+--- !u!1 &828400528 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3028382253917799273, guid: ded290b8b7d4cdb48807ac22a690b678,
+    type: 3}
+  m_PrefabInstance: {fileID: 828400490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &828400529 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -9083275534368915829, guid: ded290b8b7d4cdb48807ac22a690b678,
+    type: 3}
+  m_PrefabInstance: {fileID: 828400490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &828400530 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2498674409737185965, guid: ded290b8b7d4cdb48807ac22a690b678,
+    type: 3}
+  m_PrefabInstance: {fileID: 828400490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &828400531 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3642380495360432480, guid: ded290b8b7d4cdb48807ac22a690b678,
+    type: 3}
+  m_PrefabInstance: {fileID: 828400490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &828400532 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7658241703427246697, guid: ded290b8b7d4cdb48807ac22a690b678,
+    type: 3}
+  m_PrefabInstance: {fileID: 828400490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &828400533 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8153730268017826698, guid: ded290b8b7d4cdb48807ac22a690b678,
+    type: 3}
+  m_PrefabInstance: {fileID: 828400490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &828400534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6737165397932490865, guid: ded290b8b7d4cdb48807ac22a690b678,
+    type: 3}
+  m_PrefabInstance: {fileID: 828400490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &828400535 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7361779872828579431, guid: ded290b8b7d4cdb48807ac22a690b678,
+    type: 3}
+  m_PrefabInstance: {fileID: 828400490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &828400536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828400528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d8c1a3a9709c4ee083ab0ee1c57535d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Sphere2c
+--- !u!64 &828400537
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828400528}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3411278078347504045, guid: ded290b8b7d4cdb48807ac22a690b678, type: 3}
+--- !u!114 &828400538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828400528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  observableSearch: 2
+  Synchronization: 3
+  OwnershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 828400536}
+  viewIdField: 10
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &828400539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828400529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d8c1a3a9709c4ee083ab0ee1c57535d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Sphere1c
+--- !u!114 &828400540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828400529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  observableSearch: 2
+  Synchronization: 3
+  OwnershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 828400539}
+  viewIdField: 9
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &828400541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828400530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  observableSearch: 2
+  Synchronization: 3
+  OwnershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 828400542}
+  viewIdField: 13
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &828400542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828400530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d8c1a3a9709c4ee083ab0ee1c57535d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Sphere5c
+--- !u!114 &828400543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828400531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  observableSearch: 2
+  Synchronization: 3
+  OwnershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 828400544}
+  viewIdField: 11
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &828400544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828400531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d8c1a3a9709c4ee083ab0ee1c57535d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Sphere4c
+--- !u!114 &828400545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828400532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  observableSearch: 2
+  Synchronization: 3
+  OwnershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 828400546}
+  viewIdField: 12
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &828400546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828400532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d8c1a3a9709c4ee083ab0ee1c57535d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: Sphere3c
+--- !u!114 &828400547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828400533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42e093abe6ac440908eeb5e8ccf94a45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  affectedObject: Sphere5c
+--- !u!64 &828400548
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828400533}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2443303659478461503, guid: ded290b8b7d4cdb48807ac22a690b678, type: 3}
+--- !u!64 &828400549
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828400534}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2794057004865374385, guid: ded290b8b7d4cdb48807ac22a690b678, type: 3}
+--- !u!114 &828400550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828400534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42e093abe6ac440908eeb5e8ccf94a45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  affectedObject: Sphere3c
+--- !u!114 &828400551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828400535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42e093abe6ac440908eeb5e8ccf94a45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  affectedObject: Sphere4c
+--- !u!64 &828400552
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828400535}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1977240142646705940, guid: ded290b8b7d4cdb48807ac22a690b678, type: 3}
 --- !u!1 &867354596
 GameObject:
   m_ObjectHideFlags: 0
