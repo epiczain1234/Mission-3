@@ -11,15 +11,9 @@ public class RedSpheresP1 : MonoBehaviour, IPunObservable
     string[] lights;
     void Start()
     {
-      if (PhotonNetwork.LocalPlayer.ActorNumber == 1){
-        
-        lights = new string[3]{"Sphere","Sphere1","Sphere2"};
-        Debug.Log("Null Reference at Actor 1 Scene");
-      }
-      else if (PhotonNetwork.LocalPlayer.ActorNumber == 2){
-        lights = new string[3]{"Sphere3","Sphere4","Sphere5"};
-        Debug.Log("Null Reference at Actor 2 Scene");
-      }
+   
+        lights = new string[6]{"Sphere","Sphere1","Sphere2", "Sphere3", "Sphere4", "Sphere5"};
+    
       for (int i = 0; i < lights.Length; i++){
         photonView = GameObject.Find(lights[i]).GetComponent<PhotonView>();
         photonView.GetComponent<Renderer>().material.color = Color.green;
@@ -49,22 +43,16 @@ public class RedSpheresP1 : MonoBehaviour, IPunObservable
       }
 
     }
-    [PunRPC]
-    public void turnSphereRed(){
-        Debug.Log("attempting to grab a sphere and chance it color");
-          int grab = Random.Range(0, lights.Length - 1);
-          photonView = GameObject.Find(lights[grab]).GetComponent<PhotonView>();
-        //  Debug.Log("Null Reference at Turning Spheres red for actor " + PhotonNetwork.LocalPlayer.ActorNumber + " The Specific Sphere is " + lights[grab]);
-          Debug.Log("changing the color of " + lights[grab] + " now");
-          photonView.GetComponent<Renderer>().material.color = Color.red;
-        
-     } 
+    
+     [PunRPC]
      IEnumerator callLimiter(){
         while(true){
           float time = (float)Random.Range(1, 5);
           Debug.Log("The delay is now "  + time);
           yield return new WaitForSeconds(time);
-          turnSphereRed();
+          int grab = Random.Range(0, lights.Length);
+          photonView = GameObject.Find(lights[grab]).GetComponent<PhotonView>();
+          photonView.RPC("turnSphereRed", RpcTarget.All, null);
 
         }
      }

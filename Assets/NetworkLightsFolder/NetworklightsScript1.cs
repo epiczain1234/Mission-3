@@ -37,6 +37,12 @@ public class NetworklightsScript1 : MonoBehaviour, IPunObservable
         correlatedView.GetComponent<Renderer>().material.color = Color.red;
 
     }
+    [PunRPC]
+    public void turnSphereRed(){
+          Debug.Log("attempting to grab a sphere1 and chance it color");
+          photonView.GetComponent<Renderer>().material.color = Color.red;
+        
+     } 
     // essetial interface component
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info){
 

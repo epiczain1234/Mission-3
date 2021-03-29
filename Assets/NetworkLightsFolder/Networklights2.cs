@@ -29,6 +29,12 @@ public class Networklights2 : MonoBehaviour, IPunObservable
         }
 
     }
+    [PunRPC]
+    public void turnSphereRed(){
+          Debug.Log("attempting to grab a sphere2 and chance it color");
+          photonView.GetComponent<Renderer>().material.color = Color.red;
+        
+     } 
     // essential interface component
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info){
 
