@@ -20,8 +20,9 @@ public class CountDownTimer : MonoBehaviour
     {
        currentTime -= 1 * Time.deltaTime;
        countdownText.text = currentTime.ToString();
-       if (0 >= currentTime){
-         SceneManager.LoadScene("WinScene");
-       }
+       // TODO: Re-enable countdown timer
+      //  if (0 >= currentTime){
+      //    SceneManager.LoadScene("WinScene");
+      //  }
     }
 }

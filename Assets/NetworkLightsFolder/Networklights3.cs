@@ -17,26 +17,26 @@ public class Networklights3 : MonoBehaviour, IPunObservable
     //   photonView.RPC("RPC_ChangeColor", RpcTarget.All, null);
     // }
     void OnMouseOver(){
-      if (Input.GetMouseButtonUp(0)){
+      if (Input.GetMouseButtonUp(0) && PhotonNetwork.LocalPlayer.ActorNumber == 2){
         Debug.Log("Sphere Click detected");
         photonView.RPC("RPC_ChangeColor", RpcTarget.All, null);
       }
     }
 
-   [PunRPC]
+    [PunRPC]
     void RPC_ChangeColor(){
-        Debug.Log("Color change code executed");
-        if (GetComponent<Renderer>().material.color == Color.red){
-            GetComponent<Renderer>().material.color = Color.green;
+        Debug.Log("Color change code executed for sphere to end game");
+        if (PhotonNetwork.LocalPlayer.ActorNumber == 2){
+            if (GetComponent<Renderer>().material.color == Color.red)
+                GetComponent<Renderer>().material.color = Color.green;
+        
+            else {
+              int oldStrikes = (int)PhotonNetwork.CurrentRoom.CustomProperties["Strikes"] + 1;
+              PhotonNetwork.CurrentRoom.SetCustomProperties(new Hashtable{{"Strikes", oldStrikes}});
+              Debug.Log("We now have a total of " + (int)PhotonNetwork.CurrentRoom.CustomProperties["Strikes"] + " strikes");
+            }
+            correlatedView.RPC("turnSphereRed", RpcTarget.All, null);
         }
-        // if material is green and clicked (Strike Condition)
-        else{
-          int oldStrikes = (int)PhotonNetwork.CurrentRoom.CustomProperties["Strikes"] + 1;
-          PhotonNetwork.CurrentRoom.SetCustomProperties(new Hashtable{{"Strikes", oldStrikes}});
-          Debug.Log("We now have a total of " + (int)PhotonNetwork.CurrentRoom.CustomProperties["Strikes"] + " strikes");
-        }
-        correlatedView.RPC("turnSphereRed", RpcTarget.All, null);
-
     }
     [PunRPC]
     public void turnSphereRed(){

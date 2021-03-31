@@ -14,13 +14,14 @@ public class SliderLight : MonoBehaviour, IPunObservable
     }
     [PunRPC]
     public void turnSphereRed(){
-          photonView.GetComponent<Renderer>().material.color = Color.red;
-        
+        photonView.GetComponent<Renderer>().material.color = Color.red;
      } 
     [PunRPC]
     public void turnSphereGreen(){
-          photonView.GetComponent<Renderer>().material.color = Color.green;
-        
+       if ((objectName == "Spherec" || objectName == "Sphere1c" || objectName == "Sphere2c") && PhotonNetwork.LocalPlayer.ActorNumber == 2)
+            photonView.GetComponent<Renderer>().material.color = Color.green;
+       else if ((objectName == "Sphere3c" || objectName == "Sphere4c" || objectName == "Sphere5c") && PhotonNetwork.LocalPlayer.ActorNumber == 1)
+            photonView.GetComponent<Renderer>().material.color = Color.green;
      } 
 
     // Update is called once per frame

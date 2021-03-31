@@ -13,6 +13,7 @@ public class KnobScript : MonoBehaviour, IPunObservable
         photonView = GameObject.Find(affectedObject).GetComponent<PhotonView>();
     }
     void OnMouseOver(){
+      // if input and ((actornumber is 1 and  (affected == spherec or  affected == sphere1c  or affected == sphere2c) or (actor number is 2 and ....))
       if (Input.GetMouseButtonUp(0)){
         Debug.Log("knob Click detected");
         photonView.RPC("turnSphereGreen", RpcTarget.All, null);
