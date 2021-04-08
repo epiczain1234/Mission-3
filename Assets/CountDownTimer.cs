@@ -9,6 +9,7 @@ public class CountDownTimer : MonoBehaviour
     // Start is called before the first frame
     float currentTime;
     float startingTime = 60f;
+    int time;
     [SerializeField] Text countdownText;
     void Start()
     {
@@ -19,7 +20,8 @@ public class CountDownTimer : MonoBehaviour
     void Update()
     {
        currentTime -= 1 * Time.deltaTime;
-       countdownText.text = currentTime.ToString();
+       time = (int)(currentTime);
+       countdownText.text = time.ToString();
        // TODO: Re-enable countdown timer
       //  if (0 >= currentTime){
       //    SceneManager.LoadScene("WinScene");
