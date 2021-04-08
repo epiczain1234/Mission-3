@@ -15,6 +15,7 @@ ScriptsOnlyBuild:
     - NetworklightsScript1
     - RedSpheresP1
     - SliderLight
+    - StrikeCounter
     - TurnSpheresRed
     - WaitingOnPlayers
     PhotonUnityNetworking.Demos.dll:
@@ -49,6 +50,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.InputField
+    - UnityEngine.UI.RawImage
     - UnityEngine.UI.Shadow
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
@@ -185,6 +187,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13058}
     - Class: 114
+      Script: {instanceID: 13224}
+    - Class: 114
       Script: {instanceID: 13482}
     - Class: 114
       Script: {instanceID: 13726}
@@ -200,6 +204,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14224}
     - Class: 114
       Script: {instanceID: 14326}
+    - Class: 114
+      Script: {instanceID: 23258}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -2163,6 +2169,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 9f819b80c1a56ab529370ac904484c0d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StrikeCounter
   platform: 2
   scenePathNames:
   - Assets/Lobby.unity
@@ -2176,4 +2188,4 @@ ScriptsOnlyBuild:
   - Assets/Player2Scene.unity
   - Assets/Lostthegame.unity
   - Assets/Final.unity
-  playerPath: /Users/zainmukati/Desktop/rr.app
+  playerPath: /Users/zainmukati/Desktop/11.app
