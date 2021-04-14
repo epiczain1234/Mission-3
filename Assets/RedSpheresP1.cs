@@ -32,13 +32,22 @@ public class RedSpheresP1 : MonoBehaviour, IPunObservable
       //  TODO: Re-Enable this hastable checking script 
         Debug.Log("wE HAVE " + (int)PhotonNetwork.CurrentRoom.CustomProperties["Strikes"] + " strikes in total");
         if ((int)PhotonNetwork.CurrentRoom.CustomProperties["Strikes"] >= 3){
+            Disconnect();
+            Debug.Log("Left Room");
           SceneManager.LoadScene("Lostthegame");
+         
         }
         // if actor number is 1 and its 6 lights are red, load the "lost the game scene"
         // if 
           bool lost = checkIfLost(p1Lights, p2Lights);
-          if (lost)
+          if (lost){
+            Disconnect();
+            Debug.Log("Left Room");
             SceneManager.LoadScene("Lostthegame");
+            
+             
+          }
+           
     }
     public bool checkIfLost(string []arr, string []arr2){
         PhotonView temp; 
@@ -84,5 +93,11 @@ public class RedSpheresP1 : MonoBehaviour, IPunObservable
           photonView.RPC("turnSphereRed", RpcTarget.All, null);
 
         }
+     }
+     IEnumerator Disconnect(){
+       PhotonNetwork.LeaveRoom();
+       while(PhotonNetwork.InRoom)
+          yield return null;
+        Debug.Log("Left Room");
      }
 }

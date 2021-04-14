@@ -20,7 +20,7 @@ public class WaitingOnPlayers : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      if (PhotonNetwork.CurrentRoom.PlayerCount == 2){
+      if (PhotonNetwork.CurrentRoom.PlayerCount == 1){
         currentTime -= 1 * Time.deltaTime;
         Debug.Log(currentTime + " seconds left till game start");
         if (0 >= currentTime){

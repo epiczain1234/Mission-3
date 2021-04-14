@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Photon.Pun;
 
 public class CountDownTimer : MonoBehaviour
 {
@@ -23,8 +24,16 @@ public class CountDownTimer : MonoBehaviour
        time = (int)(currentTime);
        countdownText.text = time.ToString();
        // TODO: Re-enable countdown timer
-      //  if (0 >= currentTime){
-      //    SceneManager.LoadScene("WinScene");
-      //  }
+       if (0 >= currentTime){   
+         Disconnect(); 
+         SceneManager.LoadScene("WinScene");
+         
+       }
     }
+       IEnumerator Disconnect(){
+       PhotonNetwork.LeaveRoom();
+       while(PhotonNetwork.InRoom)
+          yield return null;
+        Debug.Log("Left Room");
+     }
 }
