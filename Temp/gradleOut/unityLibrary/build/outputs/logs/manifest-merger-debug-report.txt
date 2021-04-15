@@ -1,30 +1,30 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:1-24:12
-INJECTED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:1-24:12
-INJECTED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:1-24:12
-INJECTED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:1-24:12
-INJECTED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:1-24:12
-INJECTED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:1-24:12
-INJECTED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:1-24:12
+ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:1-27:12
+INJECTED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:1-27:12
+INJECTED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:1-27:12
+INJECTED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:1-27:12
+INJECTED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:1-27:12
+INJECTED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:1-27:12
+INJECTED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:1-27:12
 	package
 		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:70-98
 		INJECTED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
 		INJECTED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
-		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:1-24:12
+		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:1-27:12
 		INJECTED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:99-145
 	android:versionCode
 		INJECTED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
-		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:1-24:12
+		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:1-27:12
 		INJECTED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:3:11-69
 application
-ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:4:3-17:17
+ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:4:3-19:17
 activity#com.unity3d.player.UnityPlayerActivity
 ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:5:5-12:16
 	android:screenOrientation
@@ -85,38 +85,54 @@ ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/m
 		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:46-98
 	android:name
 		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:16-45
-uses-feature#0x00030000
-ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:18:3-52
+meta-data#unityplayer.SkipPermissionsDialog
+ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:17:5-88
+	android:value
+		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:17:65-85
+	android:name
+		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:17:16-64
+meta-data#com.google.ar.core
+ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:18:5-77
+	android:value
+		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:18:50-74
+	android:name
+		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:18:16-49
+uses-feature#0x00020000
+ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:20:3-52
 	android:glEsVersion
-		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:18:17-49
-uses-feature#android.hardware.vulkan.version
-ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:19:3-91
-	android:required
-		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:19:64-88
-	android:name
-		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:19:17-63
+		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:20:17-49
 uses-permission#android.permission.INTERNET
-ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:20:3-65
+ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:21:3-65
 	android:name
-		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:20:20-62
+		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:21:20-62
 uses-feature#android.hardware.touchscreen
-ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:21:3-88
+ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:22:3-88
 	android:required
-		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:21:61-85
+		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:22:61-85
 	android:name
-		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:21:17-60
+		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:22:17-60
 uses-feature#android.hardware.touchscreen.multitouch
-ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:22:3-99
+ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:23:3-99
 	android:required
-		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:22:72-96
+		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:23:72-96
 	android:name
-		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:22:17-71
+		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:23:17-71
 uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:23:3-108
+ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:24:3-108
 	android:required
-		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:23:81-105
+		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:24:81-105
 	android:name
-		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:23:17-80
+		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:24:17-80
+uses-permission#android.permission.CAMERA
+ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:25:3-63
+	android:name
+		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:25:20-60
+uses-feature#android.hardware.camera.ar
+ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:26:3-85
+	android:required
+		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:26:59-82
+	android:name
+		ADDED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:26:17-58
 uses-sdk
 INJECTED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml

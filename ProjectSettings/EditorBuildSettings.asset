@@ -5,37 +5,37 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lobby.unity
     guid: 13344c56881f04ab0b72518e2bf9868b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Connecting.unity
     guid: 4fd6197e87af64ac1b41aaea8311af1e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Connected.unity
     guid: 3329761ceeebc4fd69d30a0256944587
-  - enabled: 1
+  - enabled: 0
     path: Assets/RoomConnectScene.unity
     guid: 375be5698bb13480c909ab44d8cf59e3
-  - enabled: 1
+  - enabled: 0
     path: Assets/MultiplayerRoom.unity
     guid: 5caffe3b7b01042dcaa05a1b6d21bcc9
   - enabled: 0
     path: Assets/Actual.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/WinScene.unity
     guid: a44898810d9294068bc1a5d169084b5c
-  - enabled: 1
+  - enabled: 0
     path: Assets/ReadyUp.unity
     guid: 8106ca26d45fb4d8abb410f0e8cd11b8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Player1Scene.unity
     guid: 5d5078a1707074ca1ae7b89400781b0e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Player2Scene.unity
     guid: 2416b8955b2714b15a87e842baf52b8c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Lostthegame.unity
     guid: 8ce6737ab8a0244a2aa0c968469bc5c4
   - enabled: 1
@@ -43,4 +43,8 @@ EditorBuildSettings:
     guid: dd7a09a38fd3b4c3ba06cbb65acfef96
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: a3b1dc0fd557348c2868fd487686e074,
+      type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 9c979306a357b4b8bbdd85f59263b10c,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4d1ba700c76a14c79b84d70831422ef8,
       type: 2}
