@@ -56,7 +56,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Connected.unity:
+    Assets/Scenes/Connected.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -99,7 +99,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Connecting.unity:
+    Assets/Scenes/Connecting.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -142,7 +142,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Final.unity:
+    Assets/Scenes/Final.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -225,7 +225,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Lobby.unity:
+    Assets/Scenes/Lobby.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -344,7 +344,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 225
       Script: {instanceID: 0}
-    Assets/Lostthegame.unity:
+    Assets/Scenes/Lostthegame.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -395,7 +395,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/MultiplayerRoom.unity:
+    Assets/Scenes/MultiplayerRoom.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -460,7 +460,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Player1Scene.unity:
+    Assets/Scenes/Player1Scene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -541,7 +541,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Player2Scene.unity:
+    Assets/Scenes/Player2Scene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -618,7 +618,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/ReadyUp.unity:
+    Assets/Scenes/ReadyUp.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -663,7 +663,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/RoomConnectScene.unity:
+    Assets/Scenes/RoomConnectScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -716,7 +716,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/WinScene.unity:
+    Assets/Scenes/WinScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -2210,15 +2210,15 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 13
   scenePathNames:
-  - Assets/Lobby.unity
-  - Assets/Connecting.unity
-  - Assets/Connected.unity
-  - Assets/RoomConnectScene.unity
-  - Assets/MultiplayerRoom.unity
-  - Assets/WinScene.unity
-  - Assets/ReadyUp.unity
-  - Assets/Player1Scene.unity
-  - Assets/Player2Scene.unity
-  - Assets/Lostthegame.unity
-  - Assets/Final.unity
-  playerPath: /Users/zainmukati/Desktop/Android.apk
+  - Assets/Scenes/Lobby.unity
+  - Assets/Scenes/Connecting.unity
+  - Assets/Scenes/Connected.unity
+  - Assets/Scenes/RoomConnectScene.unity
+  - Assets/Scenes/MultiplayerRoom.unity
+  - Assets/Scenes/WinScene.unity
+  - Assets/Scenes/ReadyUp.unity
+  - Assets/Scenes/Player1Scene.unity
+  - Assets/Scenes/Player2Scene.unity
+  - Assets/Scenes/Lostthegame.unity
+  - Assets/Scenes/Final.unity
+  playerPath: C:/Users/Zainm/OneDrive/Desktop/submission Test.apk

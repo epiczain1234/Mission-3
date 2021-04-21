@@ -1,4 +1,0 @@
-#Thu Apr 15 12:45:27 EDT 2021
-base.0=/Users/zainmukati/Desktop/Mission-3/Temp/gradleOut/launcher/build/intermediates/dex/debug/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
